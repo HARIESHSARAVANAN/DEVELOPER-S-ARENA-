@@ -1,76 +1,129 @@
 # 📊 Sales Data Analysis
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Welcome+to+my+Sales+Data+Analysis+Project!;Analyzing+Real-World+Sales+Data+with+Pandas;My+First+Step+into+Data+Analysis" alt="Typing Animation">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Sales+Data+Analysis;Python+%2B+Pandas;Working+with+Real+World+Data" alt="Typing Animation">
 </p>
 
 <p align="center">
-  <strong>Week 3 • Introduction to Data Analysis • The Developers Arena</strong>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-purple?style=for-the-badge&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Level-Beginner-green?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Project-Data%20Analysis-orange?style=for-the-badge">
+  <strong>Week 3 • The Developers Arena</strong>
 </p>
 
 ---
 
 ## 📌 Project Overview
 
-**Sales Data Analysis** is a Python-based data analysis project
-developed using the **Pandas** library.
+A beginner-friendly **Python + Pandas** project that analyzes sales data from a CSV file.
 
-The program loads a sales dataset from a CSV file, explores the
-dataset, handles missing and duplicate values, calculates important
-sales metrics, and generates a clean formatted report.
-
-This project was created as part of **Week 3 of the Data Science &
-Analytics Internship at The Developers Arena**, focusing on the
-fundamentals of working with real-world data.
+The program explores the dataset, cleans missing and invalid values, removes duplicates, calculates sales metrics, and generates a product-wise report.
 
 ---
 
-## 🎯 Project Objectives
+## 🎯 Objectives
 
-The main objectives of this project are:
-
-- Learn how to use the Pandas library
-- Load data from a CSV file
-- Explore rows and columns
-- Understand dataset shape and data types
-- Identify missing values
-- Handle invalid numerical values
-- Replace missing values appropriately
-- Detect and remove duplicate records
+- Load and analyze CSV data using Pandas
+- Explore rows, columns, and data types
+- Handle missing and invalid values
+- Remove duplicate records
 - Calculate important sales metrics
-- Analyze product-wise sales
 - Identify the best-selling product
-- Generate a clean and formatted report
+- Generate a formatted sales report
 
 ---
 
 ## ✨ Features
 
 ```text
-┌──────────────────────────────────────────────────────┐
-│              SALES DATA ANALYSIS                     │
-├──────────────────────────────────────────────────────┤
-│                                                      │
-│  📂 Load Sales Dataset                               │
-│  🔍 Explore Dataset                                  │
-│  📊 Check Rows & Columns                             │
-│  🧾 Check Data Types                                 │
-│  ⚠️  Detect Missing Values                           │
-│  🧹 Clean Invalid & Missing Data                     │
-│  🗑️  Remove Duplicate Records                        │
-│  💰 Calculate Total Revenue                          │
-│  📦 Calculate Total Quantity                          │
-│  📈 Calculate Average Sale                           │
-│  ⬆️  Find Highest Sale                               │
-│  ⬇️  Find Lowest Sale                                │
-│  🏆 Find Best-Selling Product                        │
-│  📋 Generate Product-Wise Report                     │
-│                                                      │
-└──────────────────────────────────────────────────────┘
+📂 Load Sales Dataset
+🔍 Explore Dataset
+⚠️ Detect Missing Values
+🧹 Clean Data
+🗑️ Remove Duplicates
+💰 Calculate Total Revenue
+📦 Calculate Total Quantity
+📈 Calculate Average Sale
+⬆️ Find Highest Sale
+⬇️ Find Lowest Sale
+🏆 Find Best-Selling Product
+📑 Generate Product-Wise Report
+```
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.x
+- Pandas
+- CSV Dataset
+
+---
+
+## 📁 Project Structure
+
+```text
+Week-3/
+│
+├── sales_analysis.py
+├── sales_data.csv
+├── requirements.txt
+├── analysis_report.md
+├── screenshots/
+└── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+Install Pandas:
+
+```bash
+pip install pandas
+```
+
+Run the program:
+
+```bash
+python sales_analysis.py
+```
+
+---
+
+## 📊 Analysis
+
+The program calculates:
+
+- Total Revenue
+- Total Quantity Sold
+- Average Sale
+- Highest Sale
+- Lowest Sale
+- Best-Selling Product
+- Product-Wise Revenue
+
+---
+
+## 📸 Screenshots
+
+Screenshots showing dataset exploration, data cleaning, and the final analysis output are included in the project submission.
+
+---
+
+## 📚 What I Learned
+
+Through this project, I learned how to:
+
+- Work with Pandas DataFrames
+- Read and clean CSV datasets
+- Handle missing and invalid data
+- Remove duplicate records
+- Use grouping and aggregation
+- Calculate useful statistics
+- Generate a formatted data analysis report
+
+---
+
+## 👨‍💻 Author
+
+**Hariesh Saravanan**
+
+**The Developers Arena • Week 3**
