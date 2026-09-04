@@ -129,7 +129,7 @@ Example visualizations include:
 └──────────────────────────────────────────────┘
 🚀 How to Run the Project
 1️⃣ Clone the Repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://[github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/HARIESHSARAVANAN/DEVELOPER-S-ARENA)
 2️⃣ Navigate to the Project Directory
 cd Weather-Data-Analysis
 3️⃣ Install Required Libraries
@@ -182,6 +182,7 @@ Possible improvements for this project include:
 📈 Add advanced statistical visualizations
 ☁️ Integrate real-time weather APIs
 👨‍💻 Author
+
 <p align="center"> <strong>Hariesh S</strong> </p> <p align="center"> Python • Data Analysis • AI/ML • Data Visualization </p>
 🏆 Internship
 
