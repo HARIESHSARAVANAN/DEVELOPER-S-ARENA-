@@ -1,0 +1,375 @@
+<div align="center">
+
+# 📊 WEEK 6 — INTERMEDIATE DATA VISUALIZATION
+
+### 🚀 Developer's Arena | Data Visualization & Interactive Dashboard
+
+<img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python">
+<img src="https://img.shields.io/badge/Pandas-Data%20Analysis-purple?style=for-the-badge&logo=pandas">
+<img src="https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4c8cbf?style=for-the-badge">
+<img src="https://img.shields.io/badge/Plotly-Interactive%20Charts-orange?style=for-the-badge&logo=plotly">
+<img src="https://img.shields.io/badge/Dash-Interactive%20Dashboard-119DFF?style=for-the-badge&logo=plotly">
+<img src="https://img.shields.io/badge/Jupyter-Notebook-orange?style=for-the-badge&logo=jupyter">
+
+</div>
+
+---
+
+# 🎯 WEEK 6 OBJECTIVE
+
+The objective of Week 6 is to develop practical skills in **intermediate data visualization** by transforming raw sales data into meaningful statistical, interactive, and dashboard-based visualizations.
+
+Throughout this week, the project progresses from basic Seaborn visualizations to statistical analysis, interactive Plotly charts, and finally a complete **interactive sales dashboard using Dash**.
+
+---
+
+# 🧠 SKILLS DEVELOPED
+
+- 📊 Data Visualization
+- 📈 Statistical Visualization
+- 🔎 Exploratory Data Analysis
+- 🐼 Pandas Data Manipulation
+- 🎨 Seaborn Visualization
+- 📉 Plotly Interactive Visualization
+- 🖥️ Dash Dashboard Development
+- 🎛️ Interactive Data Filtering
+- 📌 KPI Development
+- 📋 Data Aggregation
+- 📁 Project Organization
+- 🧪 Visualization Testing
+
+---
+
+# 🗂️ PROJECT STRUCTURE
+
+```text
+WEEK 6/
+│
+├── sales_data.csv
+│
+├── DAY 1/
+│   ├── DAY1_seaborn.ipynb
+│   ├── sales_data.csv
+│   │
+│   └── visualizations/
+│       ├── daily_sales_trend.png
+│       ├── product_transaction_count.png
+│       ├── quantity_distribution.png
+│       ├── sales_by_product.png
+│       └── sales_by_region.png
+│
+├── DAY 2/
+│   ├── day2_statistical_visualization.ipynb
+│   ├── sales_data.csv
+│   │
+│   └── visualizations/
+│       ├── correlation_heatmap.png
+│       ├── price_boxplot.png
+│       ├── regional_sales_boxplot.png
+│       └── sales_violinplot.png
+│
+├── DAY 3/
+│   ├── DAY3_plotly.ipynb
+│   ├── sales_data.csv
+│   │
+│   └── visualizations/
+│       ├── interactive_product_sales.html
+│       ├── interactive_regional_sales.html
+│       └── interactive_sales_trend.html
+│
+└── DAY 4/
+    ├── Dashboard.ipynb
+    ├── sales_data.csv
+    │
+    └── visualizations/
+        ├── dashboard_overview.png
+        ├── quantity_vs_sales.png
+        ├── sales_by_product.png
+        └── sales_by_region.png
+📅 DAY 1 — SEABORN VISUALIZATION
+🔹 Focus
+
+Introduction to professional statistical visualization using Seaborn.
+
+Visualizations Created
+Visualization	Purpose
+📊 Sales by Product	Compare sales performance between products
+🌍 Sales by Region	Analyze regional sales performance
+📈 Daily Sales Trend	Understand sales movement over time
+📦 Quantity Distribution	Analyze the distribution of quantities sold
+🧾 Product Transaction Count	Compare transaction frequency by product
+Technologies
+Python
+Pandas
+Seaborn
+Matplotlib
+📅 DAY 2 — STATISTICAL VISUALIZATION
+🔹 Focus
+
+Exploring distributions, relationships, outliers, and correlations within the sales dataset.
+
+Visualizations Created
+📦 Price Box Plot
+
+Used to understand the distribution of product prices and identify potential outliers.
+
+🎻 Sales Violin Plot
+
+Used to visualize the distribution and density of sales values.
+
+🌍 Regional Sales Box Plot
+
+Used to compare sales distributions across different regions.
+
+🔥 Correlation Heatmap
+
+Used to identify relationships between numerical variables.
+
+Technologies
+Python
+Pandas
+Seaborn
+Matplotlib
+📅 DAY 3 — INTERACTIVE VISUALIZATION
+🔹 Focus
+
+Transforming static visualizations into interactive charts using Plotly.
+
+Interactive Visualizations
+📈 Interactive Sales Trend
+📊 Interactive Product Sales
+🌍 Interactive Regional Sales
+🔵 Quantity vs Total Sales
+🖱️ Hover-based data exploration
+🔍 Zoom and pan functionality
+Why Plotly?
+
+Plotly allows users to interact directly with visualizations instead of viewing static charts.
+
+Users can:
+
+Hover → Inspect values
+Zoom → Explore specific areas
+Pan → Navigate the chart
+Interact → Explore data dynamically
+📅 DAY 4 — INTERACTIVE SALES DASHBOARD
+🚀 Final Project
+
+The final stage of Week 6 combines the analysis and visualization techniques from previous days into a complete Interactive Sales Dashboard.
+
+The dashboard was developed using:
+
+Python
+Pandas
+Plotly
+Dash
+Jupyter Notebook
+📌 DASHBOARD FEATURES
+💰 KEY PERFORMANCE INDICATORS
+
+The dashboard displays:
+
+Total Sales
+
+Total revenue generated across all transactions.
+
+Average Sale
+
+Average sales value per transaction.
+
+Transactions
+
+Total number of recorded transactions.
+
+Top Product
+
+Product with the highest total sales.
+
+Top Region
+
+Region with the highest total sales.
+
+📊 DASHBOARD VISUALIZATIONS
+📈 Daily Sales Trend
+
+Displays how total sales change over time.
+
+📊 Sales by Product
+
+Compares the total sales generated by different products.
+
+🌍 Sales by Region
+
+Provides a regional comparison of total sales.
+
+🔵 Quantity vs Total Sales
+
+A scatter plot showing the relationship between quantity sold and total sales.
+
+🎛️ INTERACTIVE FILTERS
+
+The dashboard includes interactive filtering options.
+
+Product Filter
+
+Users can select a specific product or view all products.
+
+Region Filter
+
+Users can select a specific region or view all regions.
+
+The dashboard updates dynamically when the filters are changed.
+
+🧪 TESTING & VALIDATION
+
+The dashboard was tested to verify:
+
+✅ Dataset loads successfully
+✅ Date values are processed correctly
+✅ KPI calculations work correctly
+✅ Sales trend chart renders correctly
+✅ Product chart renders correctly
+✅ Regional chart renders correctly
+✅ Scatter plot renders correctly
+✅ Product filter works
+✅ Region filter works
+✅ Combined filtering works
+✅ Plotly interactions work
+✅ Dash dashboard loads successfully
+🛠️ TECHNOLOGY STACK
+<div align="center">
+Technology	Purpose
+🐍 Python	Core programming language
+🐼 Pandas	Data manipulation and analysis
+🎨 Seaborn	Statistical visualization
+📐 Matplotlib	Static plotting
+📊 Plotly	Interactive visualization
+🖥️ Dash	Interactive dashboard
+📓 Jupyter	Development environment
+🔧 Git	Version control
+🐙 GitHub	Project hosting
+</div>
+📂 DATASET
+
+The project uses a sales transaction dataset containing:
+
+Date
+Product
+Quantity
+Price
+Customer_ID
+Region
+Total_Sales
+
+The dataset contains 100 sales transactions across multiple products and regions.
+
+📈 ANALYSIS WORKFLOW
+             RAW SALES DATA
+                    │
+                    ▼
+             DATA PROCESSING
+                    │
+                    ▼
+          EXPLORATORY ANALYSIS
+                    │
+          ┌─────────┴─────────┐
+          ▼                   ▼
+      SEABORN              STATISTICAL
+   VISUALIZATION          VISUALIZATION
+          │                   │
+          └─────────┬─────────┘
+                    ▼
+             PLOTLY CHARTS
+                    │
+                    ▼
+          INTERACTIVE DASHBOARD
+                    │
+                    ▼
+             FINAL INSIGHTS
+🏆 WEEK 6 OUTCOME
+
+By completing Week 6, the project demonstrates the ability to move from raw transactional data to a complete visualization workflow:
+
+Raw Data
+   ↓
+Data Cleaning
+   ↓
+Exploratory Analysis
+   ↓
+Statistical Visualization
+   ↓
+Interactive Visualization
+   ↓
+Dashboard Development
+
+The final result is an interactive sales dashboard capable of presenting important sales metrics and allowing users to explore the dataset through filters and interactive charts.
+
+🚀 HOW TO RUN
+1️⃣ Clone the Repository
+git clone https://github.com/HARIESHSARAVANAN/DEVELOPER-S-ARENA-.git
+2️⃣ Navigate to Week 6
+cd DEVELOPER-S-ARENA-
+cd "WEEK 6"
+3️⃣ Install Dependencies
+pip install pandas matplotlib seaborn plotly dash jupyter
+4️⃣ Open the Dashboard
+
+Open:
+
+DAY 4/Dashboard.ipynb
+
+Run the notebook cells and launch the Dash application.
+
+📸 VISUAL OUTPUT
+
+The visualizations folders contain the generated charts and dashboard screenshots from each stage of the project.
+
+These outputs provide visual evidence of the completed analysis and dashboard development.
+
+📚 LEARNING HIGHLIGHTS
+Before Week 6
+Python
+Pandas
+Basic Data Analysis
+After Week 6
+Python
+Pandas
+Seaborn
+Matplotlib
+Statistical Visualization
+Plotly
+Dash
+Interactive Charts
+Dashboard Development
+KPI Analysis
+Data Filtering
+🔮 FUTURE IMPROVEMENTS
+
+Possible future improvements include:
+
+📅 Advanced date-range filtering
+📊 Additional KPI cards
+📈 Moving-average analysis
+👥 Customer segmentation
+📦 Product performance comparison
+📱 Improved responsive dashboard design
+📤 Export filtered data
+☁️ Dashboard deployment
+🔐 User authentication
+🤖 Automated sales insights
+👨‍💻 DEVELOPER
+<div align="center">
+HARIESH S
+
+B.Tech Artificial Intelligence & Data Science
+
+SRM Valliammai Engineering College
+
+<br> <a href="https://github.com/HARIESHSARAVANAN"> <img src="https://img.shields.io/badge/GitHub-HARIESHSARAVANAN-black?style=for-the-badge&logo=github"> </a> <a href="https://www.linkedin.com/in/hariesh-s-57830a251"> <img src="https://img.shields.io/badge/LinkedIn-Hariesh%20S-blue?style=for-the-badge&logo=linkedin"> </a> </div>
+<div align="center">
+⭐ WEEK 6 COMPLETED ⭐
+From Data → Visualizations → Interactive Charts → Dashboard 📊🚀
+
+Developer's Arena
+
+</div>
