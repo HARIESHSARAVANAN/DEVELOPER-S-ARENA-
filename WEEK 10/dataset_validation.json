@@ -1,0 +1,22 @@
+{
+  "rows": 500,
+  "columns": 9,
+  "column_names": [
+    "CustomerID",
+    "Tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "Contract",
+    "PaymentMethod",
+    "PaperlessBilling",
+    "SeniorCitizen",
+    "Churn"
+  ],
+  "missing_cells": 0,
+  "duplicate_rows": 0,
+  "target_counts": {
+    "0": 447,
+    "1": 53
+  },
+  "engineered_features_defined": 9
+}
