@@ -1,0 +1,4 @@
+SegmentID,Customers,Share (%),Churn rate (%),Avg Tenure,Avg MonthlyCharges,Avg TotalCharges,Avg SeniorCitizen,Most common Contract,Most common PaymentMethod,Most common PaperlessBilling,Suggested segment name
+0,114,22.8,8.8,39.54,97.83,6239.81,0.0,One year,Credit Card,No,Long-Tenure Value
+1,249,49.8,10.0,35.7,108.14,4274.98,1.0,Month-to-month,Credit Card,No,Developing / Mixed
+2,137,27.4,13.1,35.54,136.77,2504.63,0.0,One year,Electronic Check,Yes,Newer High-Charge
